@@ -29,9 +29,9 @@ def input_image_setup(uploaded_file):
 
 ##initialize our streamlit app frontend setup
 
-st.set_page_config(page_title="Gemini Health App")
+st.set_page_config(page_title="Calorie Advisor App")
 
-st.header("Gemini Health App")
+st.header("Calorie Advisor App")
 uploaded_file=st.file_uploader("Choose an img...",type=["jpg","jpeg","png"])
 image=""
 if uploaded_file is not None:
